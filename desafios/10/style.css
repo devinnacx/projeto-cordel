@@ -1,0 +1,102 @@
+@font-face{
+    font-family: "idroid";
+    src: url(fontes/idroid.otf) format("otf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "idroidd";
+    src: url(MACOSX/fontes/idroidd.otf) format("otf");
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    margin: 1px;
+    padding: 0 10%;
+    background-color: lightgreen;
+}
+header{
+    margin: 0 -12.8%;
+    padding: 5px;
+    color: white;
+    background-image: linear-gradient(to bottom, rgb(107, 230, 107), green, rgba(0, 0, 0, 0.873));
+}
+header > h1{
+    padding: 20px 0 0 0;
+    text-align: center;
+    font-family: "idroid", Arial, Helvetica, sans-serif;
+}
+header > p{
+    text-align: center;
+}
+header > ul{
+    list-style: none;
+    padding: 0; /*Remove espaçamento interno*/
+    margin: 10px; /*margens*/
+    display: flex; /*Alinha o sitens na horizontal*/
+    gap: 10px; /* Espaçamento entre os itens*/
+}
+main{
+    
+    background-color: white;
+    margin: 0px;
+    
+}
+main > h1{
+    color: green;
+    text-align: center;
+    font-family: "idroidd";
+    margin: 0;
+    padding: 10px 0;
+}
+main > h2{
+    color: green;
+    background-image: linear-gradient(to right, lightgreen, white);
+    font-family: "idroidd";
+    margin: 0 10px;
+    padding: 0;
+}
+main > p{
+    text-indent: 20px;
+    margin: 10px;
+}
+iframe{
+    display: block;
+    margin: auto;
+    background-color: green;
+    
+}
+footer{
+    margin: 0 -12.8% -10%;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+img{
+    display: block;
+    margin: auto;
+}
+.agradecimento, .rodape{
+    background-color: white;
+    
+}
+#final1{
+    color: white;
+    border-radius: 12px;
+    font-size: 20px;
+    text-align: left;
+    background-color: rgb(47, 168, 102);
+    margin: 6px;
+    padding: 0;
+}
+.final2{
+    border-radius: 12px;
+    background-color: rgb(197, 235, 214);
+    margin: 0 6px;
+    padding: 20px;
+}
+#agradecimento2{
+    text-indent: 20px;
+    margin: 6px;
+    padding: 10px;
+}

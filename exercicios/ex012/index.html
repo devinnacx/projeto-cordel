@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu propioo servidor.</p>
+    <video width="300" poster="imagens/capa.jpg" controls loop> 
+        <source src="midia/meu-video1.mp4" type="video/mp4">
+        <source src="midia/meu-video2.mp4" type="video/mp4">
+        <source src="midia/meu-videomkv.mkv" type="video/mkv">
+        <p>Seu navegador não compatibilidade com reprodução de vídeos</p>
+    </video>
+    
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="300" height="320" src="https://www.youtube.com/embed/i7L19SOqbNM?si=hR2b8q8NKjb7t5to" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/29315013?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="300" height="320" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Animation Reel"></iframe>
+</body>
+</html>
